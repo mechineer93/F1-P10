@@ -30,6 +30,27 @@
   background-color: #f6eee3;
   padding: 10px;
 }
+#customers {
+  font-family: "F1_font";
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#summary td, #summary th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#summary tr:nth-child(even){background-color: #f6eee3;}
+
+#summary tr:hover {background-color: #ddd;}
+
+#summary th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ff1800;
+  color: white;
 </style> 
 </head>
 <body class="mainf1">
@@ -38,8 +59,30 @@
     <p>Season Champion: </p>
     <p>Team Thomnard - 379 points</p>
   </div>
+  
+  <table id="customers">
+  <tr>
+    <th>Race</th>
+    <th>Adam</th>
+    <th>Andy</th>
+    <th>Bryan</th>
+    <th>Chaz</th>
+    <th>Team Thomnard</th>
+    <th>Maggie</th>
+  </tr>
+  <tr>
+    <th>Bahrain</th>
+    <td>4</td>
+    <td>2</td>
+    <td>25</td>
+    <td>12</td>
+    <td>8</td>
+    <td>10</td>
+  </tr>
+  </table>
+  
   <div>
-    <p><small>v0.0.5</small></p>
+    <p><small>v0.1.0</small></p>
   </div>
 </body>
 </html>
