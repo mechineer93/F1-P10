@@ -30,12 +30,84 @@
   background-color: #f6eee3;
   padding: 10px;
 }
+#summary {
+  font-family: "F1_font";
+  border-collapse: collapse;
+  width: 50%;
+}
+
+#summary td, #summary th {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#summary tr:nth-child(even){background-color: #f6eee3;}
+
+#summary tr:hover {background-color: #ddd;}
+
+#summary th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #ff1800;
+  color: white;
 </style> 
 </head>
 <body class="mainf1">
   <div>
     <h2>2024 Bahrain</h2>
-    <p><small>v-0.0.1</small></p>
+    <p> </p>
+  </div>
+
+  <h3>Race Picks</h3>
+    <table id="summary">
+  <tr>
+    <th> </th>
+    <th>P10</th>
+    <th>1st DNF</th>
+    <th>Points</th>
+  </tr>
+  <tr>
+    <th>Adam</th>
+    <td>Ocon</td>
+    <td>Gasly</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <th>Andy</th>
+    <td>Gasly</td>
+    <td>Zhou</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <th>Bryan</th>
+    <td><b>Stroll</b></td>
+    <td>Russell</td>
+    <td><b>25</b></td>
+  </tr>
+  <tr>
+    <th>Chaz</th>
+    <td>Ricciardo</td>
+    <td>Hulkenberg</td>
+    <td>12</td>
+  </tr>
+  <tr>
+    <th>Team Thomnard</th>
+    <td>Albon</td>
+    <td>Sargeant</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <th>Maggie</th>
+    <td>Tsunoda</td>
+    <td>Ocon</td>
+    <td>10</td>
+  </tr>
+  </table>
+  
+  <div>
+    <p><small>v-0.1.0</small></p>
   </div>
 </body>
 </html>
